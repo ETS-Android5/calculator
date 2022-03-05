@@ -52,7 +52,7 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttonstyle"
-                android:onClick="troisBTN"
+                android:onClick="expBTN"
                 android:text="@string/exp"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
@@ -300,7 +300,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="none"
-        android:text="TextView"
         android:textAlignment="textEnd"
         android:textSize="36sp"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout2"
